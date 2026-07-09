@@ -59,12 +59,16 @@ export default function HomePage() {
     <main>
       <header className="site-header">
         <div className="container header-inner">
-          <a className="brand" href="#home">
-            <span className="brand-title">Digital Typist</span>
-            <span className="brand-subtitle">
-              From Mantra to Manuscript — We Type It Right.
-            </span>
-          </a>
+          <a className="brand brand-with-logo" href="#home">
+  <img src="/logo.png" alt="Digital Typist Logo" className="brand-logo" />
+
+  <span className="brand-text">
+    <span className="brand-title">Digital Typist</span>
+    <span className="brand-subtitle">
+      From Mantra to Manuscript — We Type It Right.
+    </span>
+  </span>
+</a>
 
           <nav className="nav">
             <a href="#services">Services</a>
