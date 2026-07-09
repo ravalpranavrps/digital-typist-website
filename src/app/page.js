@@ -372,46 +372,19 @@ Message on WhatsApp
         </div>
       </section>
 
-     <footer className="site-footer">
-  <div className="container enterprise-footer">
-    <div className="footer-brand">
-      <strong>Digital Typist</strong>
-      <p>
-        Enterprise Academic Documentation & Multilingual Digitization Services
-        for scholars, universities, institutions and documentation projects.
-      </p>
-    </div>
+           <footer className="site-footer">
+        <div className="container minimal-footer">
+          <div>
+            <strong>Digital Typist</strong>
+            <p>Enterprise Academic Documentation & Multilingual Digitization Services</p>
+          </div>
 
-    <div className="footer-column">
-      <h4>Services</h4>
-      <span>Thesis Preparation</span>
-      <span>Academic Formatting</span>
-      <span>Proofreading & Editing</span>
-      <span>Manuscript Digitization</span>
-    </div>
-
-    <div className="footer-column">
-      <h4>Languages</h4>
-      <span>Sanskrit</span>
-      <span>Hindi</span>
-      <span>Gujarati</span>
-      <span>English</span>
-    </div>
-
-    <div className="footer-column">
-      <h4>Contact</h4>
-      <span>+91 88491 65907</span>
-      <span>+91 99243 45007</span>
-      <span>WhatsApp Support</span>
-      <span>India</span>
-    </div>
-  </div>
-
-  <div className="container footer-bottom">
-    <span>© {new Date().getFullYear()} Digital Typist. All rights reserved.</span>
-    <span>Built for academic documentation, research support and institutional projects.</span>
-  </div>
-</footer>
+          <div className="minimal-footer-right">
+            <a href="tel:+918849165907">Call / WhatsApp: +91 88491 65907</a>
+            <span>© {new Date().getFullYear()} Digital Typist. All rights reserved.</span>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
