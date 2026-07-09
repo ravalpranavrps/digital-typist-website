@@ -364,8 +364,8 @@ export default function HomePage() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span className="whatsapp-icon">✓</span>
-                Message on WhatsApp
+              <span className="whatsapp-icon">☎</span>
+Message on WhatsApp
               </a>
             </div>
           </div>
