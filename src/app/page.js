@@ -213,7 +213,9 @@ export default function HomePage() {
         <div className="container institutional-box">
           <div>
             <span className="section-kicker">For universities & government</span>
-            <h2>Documentation support for institutions, departments and archives.</h2>
+            <h2>
+              Documentation support for institutions, departments and archives.
+            </h2>
             <p>
               Digital Typist is preparing for larger academic and public-sector
               documentation needs: manuscript digitization, multilingual data
@@ -351,32 +353,36 @@ export default function HomePage() {
               </p>
             </div>
 
-      <div className="contact-actions">
-  <a className="btn" href="tel:+918849165907">
-    Call: +91 88491 65907 / +91 99243 45007
-  </a>
+            <div className="contact-actions">
+              <a className="btn" href="tel:+918849165907">
+                Call: +91 88491 65907 / +91 99243 45007
+              </a>
 
-  <a
-    className="btn whatsapp-btn"
-    href="https://wa.me/918849165907"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <span className="whatsapp-icon">☘</span>
-    Message on WhatsApp
-  </a>
-</div>
+              <a
+                className="btn whatsapp-btn"
+                href="https://wa.me/918849165907"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="whatsapp-icon">✓</span>
+                Message on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
             <strong>Digital Typist</strong>
-            <p>Enterprise Academic Documentation & Multilingual Digitization Services</p>
+            <p>
+              Enterprise Academic Documentation & Multilingual Digitization
+              Services
+            </p>
           </div>
-          <div>
-            © {new Date().getFullYear()} Digital Typist. All rights reserved.
-          </div>
+
+          <div>© {new Date().getFullYear()} Digital Typist. All rights reserved.</div>
         </div>
       </footer>
     </main>
