@@ -1444,3 +1444,103 @@ body {
     padding-bottom: 34px !important;
   }
 }
+
+/* Premium section separation and visual rhythm */
+
+#services {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.45), rgba(255, 250, 240, 0.92));
+  border-top: 1px solid rgba(234, 223, 202, 0.55);
+  border-bottom: 1px solid rgba(234, 223, 202, 0.55);
+}
+
+.highlight-section {
+  background:
+    radial-gradient(circle at 85% 20%, rgba(201, 154, 46, 0.12), transparent 28%),
+    rgba(255, 255, 255, 0.36);
+}
+
+#institutional {
+  position: relative;
+}
+
+#institutional::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, transparent 0%, rgba(7, 31, 58, 0.04) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+.language-section {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.52), rgba(255, 247, 232, 0.82));
+  border-top: 1px solid rgba(234, 223, 202, 0.55);
+}
+
+.process {
+  background:
+    radial-gradient(circle at 12% 20%, rgba(201, 154, 46, 0.1), transparent 30%),
+    rgba(255, 250, 240, 0.96);
+}
+
+.quality-section {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.58), rgba(255, 250, 240, 0.86));
+  border-top: 1px solid rgba(234, 223, 202, 0.55);
+  border-bottom: 1px solid rgba(234, 223, 202, 0.55);
+}
+
+.faq-section {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(7, 31, 58, 0.08), transparent 32%),
+    rgba(255, 250, 240, 0.95);
+}
+
+.section-kicker {
+  position: relative;
+}
+
+.section-kicker::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--accent);
+  opacity: 0.75;
+}
+
+.card,
+.faq-item,
+.quality-points div,
+.add-on-box,
+.quality-card {
+  backdrop-filter: blur(10px);
+}
+
+.card:hover,
+.faq-item:hover,
+.quality-points div:hover {
+  transform: translateY(-4px);
+  border-color: rgba(201, 154, 46, 0.62);
+}
+
+.institutional-box,
+.contact-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.institutional-box::after,
+.contact-box::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 220px;
+  height: 220px;
+  border-radius: 999px;
+  background: rgba(245, 223, 170, 0.08);
+  pointer-events: none;
+}
