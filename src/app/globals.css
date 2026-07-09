@@ -938,3 +938,31 @@ body {
     padding-top: 42px;
   }
 }
+/* Strong whitespace correction: Language to Workflow */
+
+.language-section {
+  padding-bottom: 10px !important;
+}
+
+.language-section + .process {
+  padding-top: 10px !important;
+}
+
+.language-grid {
+  margin-bottom: 0 !important;
+}
+
+.process .section-heading {
+  margin-top: 0 !important;
+}
+
+@media (min-width: 921px) {
+  .language-section {
+    padding-top: 56px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .language-section + .process {
+    padding-top: 8px !important;
+  }
+}
