@@ -1078,3 +1078,24 @@ body {
     max-width: 500px !important;
   }
 }
+
+/* WhatsApp CTA final polish */
+
+.whatsapp-btn {
+  gap: 12px !important;
+}
+
+.whatsapp-icon {
+  width: 26px !important;
+  height: 26px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background: #25d366 !important;
+  color: white !important;
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  flex-shrink: 0 !important;
+}
