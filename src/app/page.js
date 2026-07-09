@@ -351,27 +351,21 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="contact-actions">
-              <a className="btn" href="tel:+918849165907">
-                Call: +91 88491 65907
-              </a>
-              <a className="btn" href="tel:+919924345007">
-                Call: +91 99243 45007
-              </a>
-              <a
-                className="btn"
-                href="https://wa.me/918849165907"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Message on WhatsApp
-              </a>
-              <a className="btn" href="mailto:digitaltypistim@gmail.com">
-                digitaltypistim@gmail.com
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className="contact-actions">
+  <a className="btn" href="tel:+918849165907">
+    Call: +91 88491 65907 / +91 99243 45007
+  </a>
+
+  <a
+    className="btn whatsapp-btn"
+    href="https://wa.me/918849165907"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <span className="whatsapp-icon">☘</span>
+    Message on WhatsApp
+  </a>
+</div>
       </section>
 
       <footer className="site-footer">
