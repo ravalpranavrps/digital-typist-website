@@ -1174,3 +1174,12 @@ body {
     flex-direction: column;
   }
 }
+/* Reduce gap before enterprise footer */
+
+.site-footer {
+  margin-top: 34px !important;
+}
+
+#contact {
+  padding-bottom: 34px !important;
+}
