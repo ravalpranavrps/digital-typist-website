@@ -672,3 +672,74 @@ main {
     flex-direction: column;
   }
 }
+/* Premium refinement layer */
+
+.hero {
+  padding-top: 96px;
+  padding-bottom: 76px;
+}
+
+.section {
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+
+.institutional-box,
+.contact-box {
+  max-width: 100%;
+  min-height: 260px;
+}
+
+.card,
+.faq-item,
+.quality-points div,
+.add-on-box,
+.quality-card {
+  border-width: 1.5px;
+}
+
+.section-heading {
+  margin-bottom: 42px;
+}
+
+.section-heading p,
+.highlight-grid p,
+.institutional-box p,
+.language-grid p,
+.quality-card p,
+.contact-box p {
+  max-width: 680px;
+}
+
+.cards {
+  gap: 24px;
+}
+
+.contact-actions .btn {
+  min-height: 44px;
+  font-size: 14px;
+}
+
+.site-footer {
+  background: #071f3a;
+  color: rgba(255, 255, 255, 0.72);
+  border-top: 0;
+}
+
+.footer-grid strong {
+  color: white;
+}
+
+.footer-grid p {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+@media (min-width: 921px) {
+  .institutional-box {
+    padding: 52px;
+  }
+
+  .contact-box {
+    padding: 52px;
+  }
+}
