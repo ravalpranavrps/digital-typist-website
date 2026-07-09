@@ -1544,3 +1544,43 @@ body {
   background: rgba(245, 223, 170, 0.08);
   pointer-events: none;
 }
+
+/* Final section rhythm polish */
+
+#institutional::before {
+  opacity: 0.55 !important;
+}
+
+#institutional {
+  padding-bottom: 42px !important;
+}
+
+.language-section {
+  border-top: 0 !important;
+}
+
+.language-section::before {
+  content: "";
+  display: block;
+  width: min(1120px, calc(100% - 32px));
+  height: 1px;
+  margin: 0 auto 42px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 154, 46, 0.55),
+    transparent
+  );
+}
+
+.faq-section {
+  padding-bottom: 38px !important;
+}
+
+#contact {
+  padding-top: 28px !important;
+}
+
+.contact-box {
+  box-shadow: 0 22px 60px rgba(7, 31, 58, 0.18) !important;
+}
