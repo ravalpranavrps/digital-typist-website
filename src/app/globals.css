@@ -913,3 +913,28 @@ body {
     margin-right: auto;
   }
 }
+
+/* Reduce excessive whitespace between middle sections */
+
+.language-section {
+  padding-bottom: 34px;
+}
+
+.language-section + .process {
+  padding-top: 34px;
+}
+
+.language-grid {
+  min-height: auto;
+}
+
+@media (min-width: 921px) {
+  .language-section {
+    padding-top: 70px;
+    padding-bottom: 38px;
+  }
+
+  .language-section + .process {
+    padding-top: 42px;
+  }
+}
