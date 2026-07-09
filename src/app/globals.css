@@ -743,3 +743,60 @@ main {
     padding: 52px;
   }
 }
+/* Layout balance refinement */
+
+@media (min-width: 921px) {
+  .section-heading {
+    max-width: 860px;
+  }
+
+  .highlight-grid,
+  .language-grid,
+  .quality-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 72px;
+  }
+
+  .language-grid {
+    align-items: center;
+  }
+
+  .language-pills {
+    justify-content: flex-end;
+  }
+
+  .cards.service-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .faq-list {
+    max-width: 100%;
+  }
+
+  .contact-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.service-cards .card {
+  min-height: 190px;
+}
+
+.highlight-section,
+.language-section,
+.quality-section,
+.faq-section {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.institutional-box {
+  margin-top: 14px;
+}
+
+.language-pills span {
+  box-shadow: var(--shadow-soft);
+}
+
+.faq-item {
+  min-height: 92px;
+}
