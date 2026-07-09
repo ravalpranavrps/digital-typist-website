@@ -800,3 +800,116 @@ main {
 .faq-item {
   min-height: 92px;
 }
+/* Readability and premium spacing refinement */
+
+body {
+  font-size: 16px;
+}
+
+.brand-title {
+  font-size: 24px;
+}
+
+.brand-subtitle {
+  font-size: 13px;
+}
+
+.nav {
+  font-size: 15px;
+}
+
+.hero p {
+  font-size: 19px;
+  max-width: 760px;
+}
+
+.btn {
+  font-size: 15px;
+  letter-spacing: 0.01em;
+}
+
+.trust-strip span {
+  font-size: 14px;
+  min-height: 38px;
+  padding-inline: 16px;
+}
+
+.stats-grid strong {
+  font-size: 36px;
+}
+
+.stats-grid span {
+  font-size: 15px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card h3 {
+  font-size: 23px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.78;
+}
+
+.section-heading p,
+.highlight-grid p,
+.institutional-box p,
+.language-grid p,
+.quality-card p,
+.contact-box p {
+  font-size: 18px;
+}
+
+.panel-list div {
+  padding: 16px;
+}
+
+.panel-list span {
+  font-size: 15px;
+}
+
+.faq-item {
+  padding: 26px;
+}
+
+.faq-item h3 {
+  font-size: 21px;
+}
+
+.faq-item p {
+  font-size: 16px;
+}
+
+.contact-actions .btn {
+  min-height: 48px;
+  font-size: 15px;
+}
+
+.site-footer {
+  padding: 34px 0;
+}
+
+.footer-grid {
+  font-size: 14px;
+}
+
+@media (min-width: 921px) {
+  .hero-grid {
+    gap: 70px;
+  }
+
+  .section {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .institutional-box,
+  .contact-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
