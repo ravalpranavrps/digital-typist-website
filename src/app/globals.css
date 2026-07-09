@@ -1183,3 +1183,68 @@ body {
 #contact {
   padding-bottom: 34px !important;
 }
+/* Compact premium footer refinement */
+
+.site-footer {
+  margin-top: 22px !important;
+}
+
+.enterprise-footer {
+  padding: 34px 0 26px !important;
+  gap: 34px !important;
+  align-items: start;
+}
+
+.footer-brand strong {
+  font-size: 24px !important;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px !important;
+}
+
+.footer-brand p {
+  font-size: 14.5px !important;
+  line-height: 1.6 !important;
+  max-width: 430px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.footer-column {
+  gap: 8px !important;
+}
+
+.footer-column h4 {
+  margin-bottom: 6px !important;
+  font-size: 14px !important;
+  letter-spacing: 0.09em !important;
+}
+
+.footer-column span {
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+}
+
+.footer-bottom {
+  padding: 14px 0 16px !important;
+  font-size: 13px !important;
+}
+
+.footer-bottom span:last-child {
+  color: #f5dfaa;
+}
+
+@media (min-width: 921px) {
+  .enterprise-footer {
+    grid-template-columns: 1.55fr 0.95fr 0.75fr 0.9fr !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .enterprise-footer {
+    padding: 30px 0 22px !important;
+    gap: 22px !important;
+  }
+
+  .footer-bottom {
+    gap: 8px !important;
+  }
+}
