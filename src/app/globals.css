@@ -1336,3 +1336,111 @@ body {
 .site-footer {
   margin-top: 0 !important;
 }
+
+
+/* Consolidated page spacing optimization */
+
+.hero {
+  padding-bottom: 44px !important;
+}
+
+.stats-section {
+  padding-top: 18px !important;
+  padding-bottom: 44px !important;
+}
+
+#services {
+  padding-top: 54px !important;
+  padding-bottom: 58px !important;
+}
+
+.highlight-section {
+  padding-top: 52px !important;
+  padding-bottom: 54px !important;
+}
+
+#institutional {
+  padding-top: 52px !important;
+  padding-bottom: 54px !important;
+}
+
+.language-section {
+  padding-top: 48px !important;
+  padding-bottom: 12px !important;
+}
+
+.language-section + .process {
+  padding-top: 18px !important;
+  padding-bottom: 58px !important;
+}
+
+.quality-section {
+  padding-top: 54px !important;
+  padding-bottom: 46px !important;
+}
+
+.faq-section {
+  padding-top: 46px !important;
+  padding-bottom: 52px !important;
+}
+
+#contact {
+  padding-top: 42px !important;
+  padding-bottom: 18px !important;
+}
+
+.section-heading {
+  margin-bottom: 30px !important;
+}
+
+.process .cards {
+  margin-top: 28px !important;
+}
+
+.stats-grid {
+  margin-top: 0 !important;
+}
+
+.institutional-box {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.contact-box {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 921px) {
+  .cards {
+    gap: 22px !important;
+  }
+
+  .hero {
+    min-height: auto !important;
+  }
+
+  .hero-grid {
+    align-items: center !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .hero,
+  .section,
+  #services,
+  .highlight-section,
+  #institutional,
+  .language-section,
+  .quality-section,
+  .faq-section,
+  #contact {
+    padding-top: 42px !important;
+    padding-bottom: 42px !important;
+  }
+
+  .stats-section {
+    padding-top: 18px !important;
+    padding-bottom: 34px !important;
+  }
+}
