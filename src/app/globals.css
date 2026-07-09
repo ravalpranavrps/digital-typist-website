@@ -1326,3 +1326,13 @@ body {
     white-space: normal !important;
   }
 }
+
+/* Final contact-to-footer spacing */
+
+#contact {
+  padding-bottom: 18px !important;
+}
+
+.site-footer {
+  margin-top: 0 !important;
+}
