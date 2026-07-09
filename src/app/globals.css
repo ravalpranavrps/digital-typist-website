@@ -966,3 +966,24 @@ body {
     padding-top: 8px !important;
   }
 }
+/* Workflow cards final compact tuning */
+
+.process .card {
+  min-height: 220px !important;
+  padding: 26px 28px !important;
+}
+
+.process .step::before {
+  font-size: 30px !important;
+  margin-bottom: 14px !important;
+}
+
+.process .card h3 {
+  font-size: 23px !important;
+  margin-bottom: 12px !important;
+}
+
+.process .card p {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
