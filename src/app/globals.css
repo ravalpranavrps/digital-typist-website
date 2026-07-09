@@ -1057,3 +1057,24 @@ body {
     width: min(100% - 32px, 1160px);
   }
 }
+/* Final hero containment refinement */
+
+.hero .container {
+  width: min(1180px, calc(100% - 64px)) !important;
+}
+
+@media (min-width: 921px) {
+  .hero h1 {
+    font-size: clamp(50px, 4.2vw, 72px) !important;
+    max-width: 760px !important;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(390px, 0.85fr) !important;
+    gap: 72px !important;
+  }
+
+  .hero-panel {
+    max-width: 500px !important;
+  }
+}
