@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 270" role="img" aria-labelledby="title desc">
+  <title id="title">Digital Typist</title>
+  <desc id="desc">Digital Typist logo with cursor, keyboard keys and mouse</desc>
+  <defs>
+    <style>
+      .blue{fill:#11579d}.orange{fill:#ff9418}.keyText{fill:#244c91;font:700 34px Arial,sans-serif}.word{fill:#11579d;font:900 118px Arial,sans-serif;letter-spacing:-5px}
+    </style>
+  </defs>
+  <text x="20" y="142" class="word">DIGITAL</text>
+  <path class="orange" d="M180 8l82 79-35 7 13 43-25 8-13-43-29 27z"/>
+  <g transform="translate(170 164)">
+    <g class="orange">
+      <rect x="0" y="0" width="76" height="62" rx="13"/><rect x="86" y="0" width="76" height="62" rx="13"/><rect x="172" y="0" width="76" height="62" rx="13"/><rect x="258" y="0" width="76" height="62" rx="13"/><rect x="344" y="0" width="76" height="62" rx="13"/><rect x="430" y="0" width="76" height="62" rx="13"/>
+    </g>
+    <g fill="#fff">
+      <rect x="8" y="8" width="60" height="46" rx="8"/><rect x="94" y="8" width="60" height="46" rx="8"/><rect x="180" y="8" width="60" height="46" rx="8"/><rect x="266" y="8" width="60" height="46" rx="8"/><rect x="352" y="8" width="60" height="46" rx="8"/><rect x="438" y="8" width="60" height="46" rx="8"/>
+    </g>
+    <text x="25" y="44" class="keyText">T</text><text x="108" y="44" class="keyText">Y</text><text x="194" y="44" class="keyText">P</text><text x="282" y="44" class="keyText">I</text><text x="366" y="44" class="keyText">S</text><text x="454" y="44" class="keyText">T</text>
+    <path class="orange" d="M505 36c42-35 83-26 91 2 4 16-6 31-27 47l-11-11c15-12 22-22 19-31-4-14-27-17-62 11z"/>
+    <g transform="translate(548 78) rotate(-28)">
+      <rect class="orange" x="0" y="0" width="54" height="76" rx="27"/>
+      <path d="M27 2v27M5 29h44" fill="none" stroke="#fff" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
