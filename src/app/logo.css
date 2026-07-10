@@ -2,6 +2,10 @@
   display: none;
 }
 
+.header-inner {
+  min-height: 82px;
+}
+
 .brand-with-logo {
   flex: 0 1 auto;
   gap: 18px;
@@ -9,10 +13,10 @@
 
 .brand-with-logo::before {
   content: "";
-  width: 178px;
-  height: 58px;
+  width: 172px;
+  height: 56px;
   display: block;
-  flex: 0 0 178px;
+  flex: 0 0 172px;
   background: url("/logo.svg") center / contain no-repeat;
 }
 
@@ -44,15 +48,35 @@
 }
 
 .brand-subtitle {
-  max-width: 245px;
+  max-width: 235px;
   color: #667085;
   font-size: 13px;
   line-height: 1.45;
 }
 
+.nav {
+  gap: 24px;
+}
+
+.nav a {
+  padding: 12px 0;
+}
+
+.nav a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
 @media (max-width: 920px) {
+  html {
+    scroll-padding-top: 126px;
+  }
+
   .header-inner {
-    padding-top: 10px;
+    min-height: auto;
+    padding: 9px 0 0;
+    gap: 7px;
   }
 
   .brand-with-logo {
@@ -61,20 +85,49 @@
   }
 
   .brand-with-logo::before {
-    width: 182px;
-    height: 58px;
-    flex-basis: 182px;
+    width: 174px;
+    height: 54px;
+    flex-basis: 174px;
   }
 
   .brand-text {
     display: none;
   }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 0 0 7px;
+    border-top: 1px solid rgba(234, 223, 202, 0.72);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .nav a {
+    flex: 0 0 auto;
+    padding: 9px 0 7px;
+  }
 }
 
 @media (max-width: 640px) {
+  html {
+    scroll-padding-top: 116px;
+  }
+
   .brand-with-logo::before {
-    width: 154px;
-    height: 50px;
-    flex-basis: 154px;
+    width: 150px;
+    height: 48px;
+    flex-basis: 150px;
+  }
+
+  .nav {
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .nav a {
+    padding-inline: 2px;
   }
 }
