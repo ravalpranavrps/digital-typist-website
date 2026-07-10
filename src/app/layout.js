@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./brand-fix.css";
 
 export const metadata = {
   title: "Digital Typist | Thesis Typing & Research Support",
