@@ -7,7 +7,7 @@
     </style>
   </defs>
   <text x="20" y="142" class="word">DIGITAL</text>
-  <path class="orange" d="M180 8l82 79-35 7 13 43-25 8-13-43-29 27z"/>
+  <path class="orange" d="M112 14l66 64-28 6 10 35-20 7-11-35-23 22z"/>
   <g transform="translate(170 164)">
     <g class="orange">
       <rect x="0" y="0" width="76" height="62" rx="13"/><rect x="86" y="0" width="76" height="62" rx="13"/><rect x="172" y="0" width="76" height="62" rx="13"/><rect x="258" y="0" width="76" height="62" rx="13"/><rect x="344" y="0" width="76" height="62" rx="13"/><rect x="430" y="0" width="76" height="62" rx="13"/>
