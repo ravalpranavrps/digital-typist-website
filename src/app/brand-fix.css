@@ -1,0 +1,30 @@
+.brand-logo {
+  display: none;
+}
+
+.brand-with-logo::before {
+  content: "DT";
+  width: 46px;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 46px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: var(--accent-soft);
+  box-shadow: 0 10px 24px rgba(7, 31, 58, 0.18);
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 640px) {
+  .brand-with-logo::before {
+    width: 42px;
+    height: 42px;
+    flex-basis: 42px;
+    border-radius: 12px;
+    font-size: 15px;
+  }
+}
