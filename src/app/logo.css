@@ -1,0 +1,42 @@
+.brand-logo {
+  display: none;
+}
+
+.brand-with-logo::before {
+  content: "";
+  width: 156px;
+  height: 54px;
+  display: block;
+  flex: 0 0 156px;
+  border-radius: 0;
+  background: url("/logo.svg") center / contain no-repeat;
+  box-shadow: none;
+}
+
+.brand-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.brand-subtitle {
+  max-width: 260px;
+}
+
+@media (max-width: 640px) {
+  .brand-with-logo::before {
+    width: 132px;
+    height: 46px;
+    flex-basis: 132px;
+  }
+
+  .brand-subtitle {
+    max-width: 180px;
+  }
+}
