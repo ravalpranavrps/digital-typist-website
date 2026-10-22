@@ -1,9 +1,25 @@
+import { siteUrl, siteTitle, siteDescription } from "../lib/site.mjs";
 import "./globals.css";
 
 export const metadata = {
-  title: "Digital Typist | Thesis Typing & Research Support",
-  description:
-    "Professional thesis typing, editing, proofreading and academic formatting services for PhD and M.Phil scholars.",
+  title: siteTitle,
+  description: siteDescription,
+  metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "Digital Typist",
+    title: siteTitle,
+    description: siteDescription,
+  },
+  twitter: {
+    card: "summary",
+    title: siteTitle,
+    description: siteDescription,
+  },
 };
 
 export default function RootLayout({ children }) {
